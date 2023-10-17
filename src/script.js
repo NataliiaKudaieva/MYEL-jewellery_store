@@ -7,14 +7,8 @@ import ScrollReveal from "scrollreveal";
 // });
 
 const swiper = new Swiper(".swiper", {
-  // Optional parameters
   direction: "horizontal",
-
-  // If we need pagination
-
-  autoplay: {
-    delay: 5000,
-  },
+  slidesPerView: 3,
   // Navigation arrows
   navigation: {
     nextEl: ".swiper-button-next",
