@@ -1,0 +1,9 @@
+body {
+  font-family: "Roboto", sans-serif;
+  min-height: 100%;
+}
+
+[class*="__container"] {
+  max-width: 1312px;
+  padding: 10px 15px;
+}

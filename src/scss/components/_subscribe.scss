@@ -1,0 +1,108 @@
+.subscribe {
+  overflow: hidden;
+  background-image: url(/public/images/img_subscribe.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  justify-content: center;
+  display: flex;
+  align-items: flex-start;
+  max-height: 700px;
+  &__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+  }
+  &__nav {
+    width: 100%;
+    margin: 25px 0;
+    font-size: 18px;
+    text-transform: none;
+    color: $white;
+  }
+
+  &__special {
+    padding: 25px 20px;
+  }
+}
+
+.special {
+  position: relative;
+  padding: 10px 20px;
+  max-width: 420px;
+  color: $white;
+  &__title {
+    font-size: 46px;
+    line-height: 1.4;
+    padding: 25px 0;
+    font-weight: 400;
+  }
+
+  &__subtitle {
+    line-height: 1.2;
+    padding: 25px 0px;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+  }
+
+  &__input {
+    width: 100%;
+    padding: 15px 7px 7px 10px;
+    outline: 0;
+    color: $black;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 2px solid $grey-text;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+
+  &__input:focus {
+    outline: 0;
+  }
+
+  &__arrow {
+    position: absolute;
+    bottom: 25px;
+    right: 40px;
+    cursor: pointer;
+  }
+  &__input::placeholder {
+    color: $black;
+    padding: 5px;
+  }
+}
+
+@media (max-width: 1020px) {
+  .subscribe {
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+  }
+
+  .special {
+    text-align: center;
+    &__title {
+      font-size: 32px;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .subscribe {
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    &__nav > nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  .special {
+    &__arrow {
+      right: 20px;
+    }
+  }
+}

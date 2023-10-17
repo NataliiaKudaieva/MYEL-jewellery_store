@@ -1,0 +1,18 @@
+/* Colors */
+$black: #000000;
+$white: #fff;
+$grey-backdround-primary: #f1f1f1;
+$grey-background-secondary: #c4c4c4;
+$grey-background-light: #e5e5e5;
+$grey-text: #9b9b9b;
+$beige: #d8bf95;
+$yellow: #f4e603;
+/* Fonts */
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/public/fonts/Roboto-Thin.ttf"),
+    url("/public/fonts/Roboto-Light.ttf"),
+    url("/public/fonts/Roboto-Regular.ttf"),
+    url("/public/fonts/Roboto-Bold.ttf");
+}

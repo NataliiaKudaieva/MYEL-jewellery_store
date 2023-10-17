@@ -1,0 +1,25 @@
+{
+  "name": "myel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.33.0",
+    "parcel": "^2.9.3",
+    "scrollreveal": "^4.0.9",
+    "vivus": "^0.4.6"
+  },
+  "devDependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.22.20",
+    "@parcel/transformer-sass": "^2.9.3",
+    "swiper": "^10.3.1"
+  }
+}

@@ -1,0 +1,62 @@
+.intro {
+  min-width: 100%;
+  display: flex;
+  position: relative;
+  &__img {
+    width: 100%;
+    position: relative;
+  }
+
+  &__img > img {
+    display: block;
+    width: 100%;
+  }
+
+  &__img--caption {
+    left: 70px;
+    font-weight: 300;
+    bottom: 40px;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: $white;
+    position: absolute;
+  }
+  &__link {
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+    top: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+
+    &__img > img {
+      max-height: 150px;
+      object-fit: cover;
+    }
+
+    &__img--caption {
+      background-color: $beige;
+      color: $black;
+      font-size: 15px;
+    }
+    &__link {
+      top: 180px;
+      background: $yellow;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .intro {
+    &__link {
+      top: 200px;
+      right: 12px;
+    }
+  }
+}

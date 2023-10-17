@@ -1,0 +1,32 @@
+.arrivals {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  &__title {
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 15px 0;
+  }
+
+  &__arrows {
+    margin-left: 0 auto;
+    width: 100px;
+    height: 100px;
+    display: flex;
+  }
+}
+
+@media (max-width: 768px) {
+  .arrivals {
+    padding: 0;
+  }
+}

@@ -1,0 +1,75 @@
+.motto {
+  width: 100%;
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    height: 100%;
+  }
+  &__title {
+    font-weight: 400;
+    font-size: 64px;
+    max-width: 900px;
+  }
+  &__subtitle {
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  &__link {
+    position: absolute;
+    display: block;
+    top: 0;
+    right: -70px;
+  }
+}
+
+@media (max-width: 956px) {
+  .motto {
+    text-align: center;
+    display: flex;
+    &__container {
+      align-items: center;
+    }
+    &__title {
+      padding: 15px 0;
+      font-size: 32px;
+      max-width: 600px;
+    }
+
+    &__subtitle {
+      padding: 25px 20px;
+    }
+    &__link {
+      top: 110%;
+      right: 50%;
+      transform: translate(50%, -50%);
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .motto {
+    &__title {
+      padding: 15px 10px;
+      font-size: 28px;
+      max-width: 600px;
+    }
+
+    &__subtitle {
+      padding: 25px 20px;
+    }
+    &__link {
+      top: 110%;
+      right: 50%;
+      transform: translate(50%, -50%);
+    }
+  }
+}

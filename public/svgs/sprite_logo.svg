@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0" height="0">
+<symbol id="E_letter_logo" width="24" height="38" viewBox="0 0 24 38" fill="none">
+<path d="M23.4057 3.06334V0H0.768921V38H23.4057V34.9366H3.72462V20.4952H22.1797V17.4318H3.72462V3.06334H23.4057Z" fill="black"/>
+</symbol>
+
+<symbol id="L_letter_logo" width="23" height="38" viewBox="0 0 23 38" fill="none">
+<path d="M2.95919 34.9366V0H0.00311279V37.927H23V34.9366H2.95919Z" fill="black"/>
+</symbol>
+
+<symbol id="M_letter_logo" width="35" height="38" viewBox="0 0 35 38" fill="none">
+<path d="M31.7198 0L17.3017 19.62L2.95571 0H0V38H3.0278V5.10557L15.7158 22.6833H18.9599L31.6478 5.10557V38H34.6756V0H31.7198Z" fill="black"/>
+</symbol>
+
+<symbol id="Y_letter_logo" width="28" height="38" viewBox="0 0 28 38" fill="none">
+<path d="M27.8117 0H24.7839V14.3686L14.1866 23.6314L3.66133 14.3686V0H0.633545V15.7543L12.6727 26.3301V38H15.7005V26.3301L27.8117 15.7543V0Z" fill="black"/>
+</symbol>
+
+</svg>
